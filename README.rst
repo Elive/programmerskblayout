@@ -15,7 +15,7 @@ Second slide
 | like this
 | Or the ninja will kill a kitten!
 
-.. image:: http://github.com/Thanatermesis/thanakblayout/raw/master/teclado.jpg
+.. image:: http://github.com/Thanatermesis/thanakblayout/raw/master/thana-layout__version_6.svg
 
 Table Of Contents
 ====================
