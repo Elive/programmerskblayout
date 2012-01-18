@@ -15,7 +15,7 @@ Second slide
 | like this
 | Or the ninja will kill a kitten!
 
-.. image:: teclado.jpg
+.. image:: /teclado.jpg
 
 Table Of Contents
 ====================
