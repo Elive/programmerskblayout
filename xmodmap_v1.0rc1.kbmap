@@ -1,0 +1,71 @@
+! configure modifiers
+clear mod5
+clear mod3
+add mod5 = ISO_Level3_Shift
+add mod3 = Mode_switch
+
+! Fila central
+keycode 38 = a A aacute Aacute less x 
+keycode 39 = o O oacute Oacute greater KP_4
+keycode 40 = i I iacute Iacute parenleft KP_5
+keycode 41 = e E eacute Eacute parenright KP_6
+keycode 42 = u U uacute udiaeresis equal KP_Add
+keycode 43 = h H Left Left Home Home
+keycode 44 = r R x x x x 
+keycode 45 = n N Up Up Prior Prior
+keycode 46 = s S Right Right End End
+keycode 47 = d D Return Return x x
+keycode 48 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+!!keycode 51 = 
+
+! Fila arriba
+keycode 24 = Mode_switch Mode_switch Mode_switch Mode_switch Escape Escape
+keycode 25 = slash backslash x x at KP_7
+keycode 26 = q Q quotedbl x colon KP_8
+keycode 27 = f F dollar x asterisk KP_9
+keycode 28 = g G minus x underscore x
+keycode 29 = y Y numbersign x percent x
+keycode 30 = l L bar x ampersand x
+keycode 31 = c C ntilde Ntilde ccedilla Ccedilla
+keycode 32 = t T question questiondown exclam exclamdown 
+!keycode 33 = p P x x x x
+keycode 33 = p P apostrophe grave asciitilde asciicircum
+! FIXME: they are needed ? ^ or we can use free space for better things ?
+
+keycode 34 = BackSpace x Delete x x x
+keycode 35 = dead_acute dead_grave dead_diaeresis x dead_circumflex x
+ 
+! Fila abajo
+keycode 52 = ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift
+keycode 53 = z Z braceleft braceright x KP_1 
+keycode 54 = x X z z z KP_2
+keycode 55 = k K x x x KP_3
+keycode 56 = j J x x x KP_Enter
+keycode 57 = b B x x x x
+keycode 58 = m M Down Down Next Next
+keycode 59 = v V bracketleft x comma semicolon
+keycode 60 = w W bracketright x period x
+keycode 61 = ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift
+
+! Switch Caps_lock with the Control_R key
+!remove Lock = Caps_Lock
+!remove Control = Control_R
+!keysym Control_R = Caps_Lock
+!keysym Caps_Lock = Control_R
+!add Lock = Caps_Lock
+!add Control = Control_R
+
+! change spanish < > keys by a simple shift
+!keycode 94 = Shift_R
+!add Shift = Shift_R
+
+! add cursors in the first field, for compatibility with torus-trooper
+keycode 63 = Left
+!keycode 112  = Down
+keycode 82  = Down
+keycode 97 = Up 
+keycode 99 = Right
+
+! Disable original Enter and Backspace in order to force to use the new methods
+keycode 22 = 
+!keycode 36 =

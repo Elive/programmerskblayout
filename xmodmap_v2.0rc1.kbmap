@@ -1,0 +1,72 @@
+! configure modifiers
+clear mod5
+clear mod3
+add mod5 = ISO_Level3_Shift
+add mod3 = Mode_switch
+
+! Fila central
+keycode 38 = Mode_switch Mode_switch Escape x x exclamdown
+keycode 39 = s S numbersign x 4 exclam
+keycode 40 = d D parenleft x 5 questiondown
+keycode 41 = f F parenright x 6 question
+keycode 42 = g G minus x plus equal
+keycode 43 = h H Left Left Home Home
+keycode 44 = j J Down Down Next Next
+keycode 45 = k K Up Up Prior Prior
+keycode 46 = l L Right Right End End
+keycode 47 = Mode_switch Mode_switch Return Mode_switch Mode_switch Mode_switch
+keycode 48 = dollar x slash x backslash x
+!!keycode 51 =  not in all keyboards
+
+! Fila arriba
+keycode 24 = a A aacute Aacute x x 
+keycode 25 = w W ampersand at 7 x
+keycode 26 = e E eacute Eacute 8 EuroSign
+keycode 27 = r R quotedbl x 9 x 
+keycode 28 = t T apostrophe x x x 
+keycode 29 = y Y comma x x x 
+keycode 30 = u U uacute Uacute ucircumflex Ucircumflex
+keycode 31 = i I iacute Iacute bracketright x 
+keycode 32 = o O oacute Oacute bracketleft x
+keycode 33 = p P bar x percent x 
+keycode 34 = BackSpace BackSpace Delete Delete Delete Delete
+keycode 35 = dead_acute dead_grave dead_diaeresis asciitilde dead_circumflex x
+ 
+! Fila abajo
+keycode 52 = ISO_Level3_Shift ISO_Level3_Shift less ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift
+keycode 53 = x X greater X 1 X
+keycode 54 = c C ccedilla Ccedilla 2 Ccedilla
+keycode 55 = v V underscore x 3 x
+keycode 56 = b B asterisk x x x 
+keycode 57 = n N ntilde Ntilde x x 
+keycode 58 = m M period x Next Next
+keycode 59 = q Q semicolon x braceright x 
+keycode 60 = z Z colon x braceleft x 
+keycode 61 = ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift ISO_Level3_Shift
+
+! notes: J has "next" as a copy of "m", because of compatibility issues.
+
+
+! Switch Caps_lock with the Control_R key
+!remove Lock = Caps_Lock
+!remove Control = Control_R
+!keysym Control_R = Caps_Lock
+!keysym Caps_Lock = Control_R
+!add Lock = Caps_Lock
+!add Control = Control_R
+
+! change spanish < > keys by a simple shift
+!keycode 94 = Shift_R
+!add Shift = Shift_R
+
+! add cursors in the first field, for compatibility with torus-trooper
+!keycode 63 = Left
+!keycode 112  = Down
+!keycode 82  = Down
+!keycode 97 = Up 
+!keycode 99 = Right
+
+! Disable original Enter and Backspace in order to force to use the new methods
+keycode 22 = 
+!keycode 36 = Return
+!keycode 36 = 
