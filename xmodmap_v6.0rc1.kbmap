@@ -28,7 +28,7 @@ keycode 43 = h H Left Left NoSymbol NoSymbol
 keycode 44 = j J Down Down NoSymbol NoSymbol
 keycode 45 = k K Up Up NoSymbol NoSymbol
 keycode 46 = l L Right Right NoSymbol NoSymbol 
-keycode 47 = Mode_switch Return Home Home NoSymbol NoSymbol 
+keycode 47 = Mode_switch Mode_switch Home Home NoSymbol NoSymbol 
 keycode 48 = dead_acute dead_diaeresis End End dead_grave dead_circumflex
 !!keycode 51 =  not in all keyboards, so forget it
 
@@ -66,3 +66,4 @@ keycode 61 = minus underscore Next Next NoSymbol NoSymbol
 
 ! Disable original Backspace to force to use the new method
 !keycode 22 = 
+
