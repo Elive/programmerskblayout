@@ -65,7 +65,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6484451"
-     inkscape:cx="476.55394"
+     inkscape:cx="477.7672"
      inkscape:cy="636.17406"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -73,7 +73,7 @@
      inkscape:window-width="1920"
      inkscape:window-height="1033"
      inkscape:window-x="0"
-     inkscape:window-y="1080"
+     inkscape:window-y="47"
      inkscape:window-maximized="1"
      inkscape:object-paths="true"
      inkscape:snap-global="false"
@@ -107,7 +107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -118,12 +118,12 @@
     <image
        sodipodi:absref="/home/thana/Data/home_linked/Files/designs/teclado/teclado.jpg"
        xlink:href="teclado.jpg"
-       sodipodi:insensitive="true"
-       width="978.28662"
-       height="383.73987"
-       id="image2444"
+       y="234.52025"
        x="-0.40762091"
-       y="234.52025" />
+       id="image2444"
+       height="383.73987"
+       width="978.28662"
+       sodipodi:insensitive="true" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -1680,16 +1680,16 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="443.43497"
-       y="381.95477"
+       x="257.19885"
+       y="381.34814"
        id="text2662"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2664"
-         x="443.43497"
-         y="381.95477">+</tspan></text>
+         x="257.19885"
+         y="381.34814">+</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"

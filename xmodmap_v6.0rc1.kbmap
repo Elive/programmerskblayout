@@ -7,10 +7,10 @@ add mod3 = Mode_switch
 ! Fila arriba
 keycode 24 = q Q Escape Escape Escape Escape 
 keycode 25 = w W ampersand NoSymbol NoSymbol NoSymbol 
-keycode 26 = e E NoSymbol NoSymbol EuroSign NoSymbol
+keycode 26 = e E plus NoSymbol EuroSign NoSymbol
 keycode 27 = r R quotedbl NoSymbol NoSymbol NoSymbol 
 keycode 28 = t T apostrophe NoSymbol NoSymbol NoSymbol 
-keycode 29 = y Y plus NoSymbol NoSymbol NoSymbol 
+keycode 29 = y Y NoSymbol NoSymbol NoSymbol NoSymbol 
 keycode 30 = u U questiondown NoSymbol NoSymbol NoSymbol 
 keycode 31 = i I question NoSymbol NoSymbol NoSymbol
 keycode 32 = o O NoSymbol NoSymbol NoSymbol NoSymbol
