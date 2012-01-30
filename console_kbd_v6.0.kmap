@@ -33,7 +33,6 @@ keycode  15 = Tab
 	alt	keycode  15 = Meta_Tab        
 keycode  16 = q               
 keycode  17 = w               
-keycode  18 = +e               +E               currency         Control_e        Control_e        Meta_e           Meta_E           Meta_Control_e  
 keycode  19 = r               
 keycode  20 = t               
 keycode  21 = y               
@@ -41,10 +40,6 @@ keycode  22 = u
 keycode  23 = i               
 keycode  24 = o               
 keycode  25 = p               
-keycode  26 = dead_grave       dead_circumflex  bracketleft      Escape          
-	alt	keycode  26 = Meta_bracketleft
-keycode  27 = plus             asterisk         bracketright     Control_bracketright
-	alt	keycode  27 = Meta_bracketright
 keycode  28 = Return          
 	alt	keycode  28 = Meta_Control_m  
 keycode  29 = Control         
@@ -211,7 +206,6 @@ keycode 121 = KP_Period
 keycode 122 =
 keycode 123 =
 keycode 124 =
-keycode 125 = CtrlR            
 keycode 126 = Alt             
 keycode 127 =
 keycode 128 = nul             
@@ -695,6 +689,106 @@ compose '"' 'y' to U+00ff
 compose 's' 'z' to U+00df
 compose 'i' 'j' to U+00ff
 
+
+
+
+
+
+
+
+
+
+
+
+keycode 125 = CtrlR            
 keycode 39 = CtrlR
+alt keycode 39 = Home
+altgr keycode 39 = Home
+
+
+
+ctrlr keycode 16 = Escape
+ctrlr keycode 17 = ampersand
+keycode  18 = +e               +E               euro         Control_e        Control_e        Meta_e           Meta_E           Meta_Control_e  
+ctrlr keycode 18 = plus
+ctrlr keycode 19 = quotedbl
+ctrlr keycode 20 = apostrophe
+ctrlr keycode 22 = questiondown
+ctrlr keycode 23 = question
+
+keycode  26 = BackSpace BackSpace BackSpace BackSpace
+	alt	keycode  26 = BackSpace
+ctrlr keycode 26 = Prior
+shift ctrlr keycode 26 = Scroll_Backward
+
+keycode  27 = Remove Remove Remove Remove
+	alt	keycode  27 = Remove
+ctrlr keycode 27 = Remove
+shift ctrlr keycode 27 = Remove
+
+
+
+ctrlr keycode 30 = asterisk
+altgr keycode 30 = at
+ctrlr keycode 31 = underscore
+altgr keycode 31 = dollar
+ctrlr keycode 32 = parenleft
+altgr keycode 32 = braceleft
+ctrlr keycode 33 = parenright
+altgr keycode 33 = braceright
+ctrlr keycode 34 = slash
+altgr keycode 34 = backslash
+
+keycode  40 = dead_acute       dead_diaeresis 
+altgr keycode 40 = dead_grave
+shift altgr keycode 40 = dead_circumflex
+
+ctrlr keycode 35 = Left
+ctrlr keycode 36 = Down
+ctrlr keycode 37 = Up
+ctrlr keycode 38 = Right
+ctrlr keycode 40 = End
+shift ctrlr keycode 35 = Left
+shift ctrlr keycode 36 = Down
+shift ctrlr keycode 37 = Up
+shift ctrlr keycode 38 = Right
+shift ctrlr keycode 40 = End
+
+
+
+ctrlr keycode 44 = less
+altgr keycode 44 = bracketleft
+ctrlr keycode 45 = greater
+altgr keycode 45 = bracketright
+
+ctrlr keycode 46 = ccedilla
+shift ctrlr keycode 46 = Ccedilla
+altgr keycode 46 = numbersign
+
+ctrlr keycode 47 = equal
+altgr keycode 47 = percent
+ctrlr keycode 48 = bar
+
+ctrlr keycode 49 = ntilde
+shift ctrlr keycode 49 = Ntilde
+
+ctrlr keycode 50 = exclamdown
+ctrlr keycode 51 = exclam
+ctrlr keycode 53 = Next
+shift ctrlr keycode 53 = Scroll_Forward
+
+
+
+# caps lock is mode_2  + Tab
+ctrlr keycode 15 = Caps_Lock
+ctrlr keycode 97 = Caps_Lock
+
+# Caps lock is Control
+keycode 58 = Control Show_Memory
+
+
+
+
+
 
 
