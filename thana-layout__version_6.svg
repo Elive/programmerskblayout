@@ -65,7 +65,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6484451"
-     inkscape:cx="478.98046"
+     inkscape:cx="480.19372"
      inkscape:cy="636.17406"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -118,12 +118,12 @@
     <image
        sodipodi:absref="/mnt/raid-md2/thana/DataExtra/home_linked/Files/designs/teclado/teclado.jpg"
        xlink:href="teclado.jpg"
-       sodipodi:insensitive="true"
-       width="978.28662"
-       height="383.73987"
-       id="image2444"
+       y="234.52025"
        x="-0.40762091"
-       y="234.52025" />
+       id="image2444"
+       height="383.73987"
+       width="978.28662"
+       sodipodi:insensitive="true" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -1261,7 +1261,7 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="211.19353"
+       x="225.7527"
        y="440.31213"
        id="text2682"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
@@ -1269,7 +1269,7 @@
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2684"
-         x="211.19353"
+         x="225.7527"
          y="440.31213">_</tspan></text>
     <text
        xml:space="preserve"
@@ -1356,7 +1356,7 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="222.69307"
+       x="211.7737"
        y="444.3497"
        id="text2722"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
@@ -1364,7 +1364,7 @@
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2724"
-         x="222.69307"
+         x="211.7737"
          y="444.3497">$</tspan></text>
     <text
        xml:space="preserve"

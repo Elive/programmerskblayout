@@ -20,7 +20,7 @@ keycode 35 = Delete Delete Delete Delete Delete Delete
  
 ! Fila central
 keycode 38 = a A asterisk NoSymbol at NoSymbol 
-keycode 39 = s S underscore NoSymbol dollar NoSymbol 
+keycode 39 = s S dollar NoSymbol underscore NoSymbol 
 keycode 40 = d D parenleft NoSymbol braceleft NoSymbol NoSymbol 
 keycode 41 = f F parenright NoSymbol braceright NoSymbol
 keycode 42 = g G slash NoSymbol backslash NoSymbol
