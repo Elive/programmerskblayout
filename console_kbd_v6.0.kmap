@@ -730,8 +730,8 @@ shift ctrlr keycode 27 = Remove
 
 ctrlr keycode 30 = asterisk
 altgr keycode 30 = at
-ctrlr keycode 31 = underscore
-altgr keycode 31 = dollar
+ctrlr keycode 31 = dollar
+altgr keycode 31 = underscore
 ctrlr keycode 32 = parenleft
 altgr keycode 32 = braceleft
 ctrlr keycode 33 = parenright
