@@ -67,3 +67,20 @@ keycode 61 = minus underscore Next Next NoSymbol NoSymbol
 ! Disable original Backspace to force to use the new method
 !keycode 22 = 
 
+
+! Compatibility: disable original keys
+keycode 9 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 10 = 1 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 11 = 2 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 12 = 3 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 13 = 4 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 14 = 5 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 15 = 6 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 16 = 7 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 17 = 8 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 18 = 9 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 19 = 0 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 20 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 21 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+
+
