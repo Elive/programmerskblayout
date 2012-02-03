@@ -65,7 +65,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6484451"
-     inkscape:cx="480.19372"
+     inkscape:cx="481.40698"
      inkscape:cy="636.17406"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -118,12 +118,12 @@
     <image
        sodipodi:absref="/mnt/raid-md2/thana/DataExtra/home_linked/Files/designs/teclado/teclado.jpg"
        xlink:href="teclado.jpg"
-       y="234.52025"
-       x="-0.40762091"
-       id="image2444"
-       height="383.73987"
+       sodipodi:insensitive="true"
        width="978.28662"
-       sodipodi:insensitive="true" />
+       height="383.73987"
+       id="image2444"
+       x="-0.40762091"
+       y="234.52025" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -1297,16 +1297,16 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="305.44531"
-       y="504.89258"
+       x="317.57797"
+       y="504.89255"
        id="text2698"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2700"
-         x="305.44531"
-         y="504.89258">ç</tspan></text>
+         x="317.57797"
+         y="504.89255">ç</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -1343,7 +1343,7 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="315.27371"
+       x="303.74771"
        y="505.95477"
        id="text2718"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
@@ -1351,7 +1351,7 @@
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2720"
-         x="315.27371"
+         x="303.74771"
          y="505.95477">#</tspan></text>
     <text
        xml:space="preserve"
@@ -1369,16 +1369,16 @@
     <text
        xml:space="preserve"
        style="font-size:12.60547447px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="378.37585"
-       y="505.33957"
+       x="367.45648"
+       y="504.73294"
        id="text2726"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2728"
-         x="378.37585"
-         y="505.33957">%</tspan></text>
+         x="367.45648"
+         y="504.73294">%</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -1693,16 +1693,16 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="366.49109"
-       y="503.50165"
+       x="444.74664"
+       y="380.35529"
        id="text2666"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2668"
-         x="366.49109"
-         y="503.50165">=</tspan></text>
+         x="444.74664"
+         y="380.35529">=</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"

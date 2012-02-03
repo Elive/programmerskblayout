@@ -713,6 +713,7 @@ keycode  18 = +e               +E               euro         Control_e        Co
 ctrlr keycode 18 = plus
 ctrlr keycode 19 = quotedbl
 ctrlr keycode 20 = apostrophe
+ctrlr keycode 21 = equal
 ctrlr keycode 22 = questiondown
 ctrlr keycode 23 = question
 
@@ -761,12 +762,11 @@ altgr keycode 44 = bracketleft
 ctrlr keycode 45 = greater
 altgr keycode 45 = bracketright
 
-ctrlr keycode 46 = ccedilla
-shift ctrlr keycode 46 = Ccedilla
-altgr keycode 46 = numbersign
+ctrlr keycode 46 = numbersign
+altgr keycode 46 = ccedilla
+shift altgr keycode 46 = Ccedilla
 
-ctrlr keycode 47 = equal
-altgr keycode 47 = percent
+ctrlr keycode 47 = percent
 ctrlr keycode 48 = bar
 
 ctrlr keycode 49 = ntilde
