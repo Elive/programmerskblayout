@@ -56,6 +56,19 @@
          stdDeviation="1.4819561"
          id="feGaussianBlur5711" />
     </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5709-3"
+       x="-0.29116863"
+       width="1.5823373"
+       y="-0.080652334"
+       height="1.1613047">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4819561"
+         id="feGaussianBlur5711-2" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -66,7 +79,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.6484451"
      inkscape:cx="481.40698"
-     inkscape:cy="636.17406"
+     inkscape:cy="539.1129"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1020,8 +1033,8 @@
        id="rect2835"
        width="12.21524"
        height="44.099091"
-       x="658.34442"
-       y="529.11133"
+       x="680.18317"
+       y="530.32458"
        style="opacity:0.375;fill:#0000ff;fill-opacity:1;filter:url(#filter5709)"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
@@ -1330,16 +1343,16 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="160.6579"
-       y="442.25897"
+       x="207.36858"
+       y="380.98911"
        id="text2714"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2716"
-         x="160.6579"
-         y="442.25897">@</tspan></text>
+         x="207.36858"
+         y="380.98911">@</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -2254,16 +2267,16 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="270.06824"
-       y="381.48145"
+       x="210.01166"
+       y="363.8891"
        id="text2878-5"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2880-6"
-         x="270.06824"
-         y="381.48145">€</tspan></text>
+         x="210.01166"
+         y="363.8891">€</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.70552492px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -2323,5 +2336,70 @@
          id="tspan2684-9"
          x="733.76013"
          y="485.03867">_</tspan></text>
+    <rect
+       id="rect2835-0"
+       width="12.21524"
+       height="44.099091"
+       x="761.88885"
+       y="418.8273"
+       style="opacity:0.375;fill:#0000ff;fill-opacity:1;filter:url(#filter5709-3)"
+       inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
+       inkscape:export-xdpi="222"
+       inkscape:export-ydpi="222"
+       transform="matrix(1,0,0,0.65648342,-4.2464259,157.21151)" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.34513044px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="375.56119"
+       y="879.58508"
+       id="text2815-6"
+       transform="scale(2.0196282,0.49514065)"
+       inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
+       inkscape:export-xdpi="222"
+       inkscape:export-ydpi="222"><tspan
+         sodipodi:role="line"
+         id="tspan2817-1"
+         x="375.56119"
+         y="879.58508">M</tspan><tspan
+         sodipodi:role="line"
+         x="375.56119"
+         y="887.51648"
+         id="tspan2821-5">o</tspan><tspan
+         sodipodi:role="line"
+         x="375.56119"
+         y="895.44794"
+         id="tspan2824-5">d</tspan><tspan
+         sodipodi:role="line"
+         x="375.56119"
+         y="903.37933"
+         id="tspan2826-4">e</tspan><tspan
+         sodipodi:role="line"
+         x="375.56119"
+         y="911.31073"
+         id="tspan2829-7" /><tspan
+         sodipodi:role="line"
+         x="375.56119"
+         y="919.24213"
+         id="tspan2833-6">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="439.40286"
+       y="503.5022"
+       id="text2706-4"><tspan
+         sodipodi:role="line"
+         id="tspan2708-3"
+         x="439.40286"
+         y="503.5022">~</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="379.34625"
+       y="505.59592"
+       id="text2730-0"><tspan
+         sodipodi:role="line"
+         id="tspan2732-7"
+         x="379.34625"
+         y="505.59592">^</tspan></text>
   </g>
 </svg>
