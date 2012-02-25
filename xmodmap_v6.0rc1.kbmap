@@ -14,7 +14,7 @@ keycode 29 = y Y equal NoSymbol NoSymbol NoSymbol
 keycode 30 = u U questiondown NoSymbol uacute Uacute
 keycode 31 = i I question NoSymbol iacute Iacute
 keycode 32 = o O NoSymbol NoSymbol oacute Oacute
-keycode 33 = p P NoSymbol NoSymbol thorn NoSymbol
+keycode 33 = p P Home Home thorn NoSymbol
 keycode 34 = BackSpace BackSpace Prior Prior NoSymbol NoSymbol
 keycode 35 = Delete Delete Delete Delete Delete Delete
  
@@ -28,7 +28,7 @@ keycode 43 = h H Left Left NoSymbol NoSymbol
 keycode 44 = j J Down Down NoSymbol NoSymbol
 keycode 45 = k K Up Up NoSymbol NoSymbol
 keycode 46 = l L Right Right NoSymbol NoSymbol 
-keycode 47 = Mode_switch Mode_switch Home Home NoSymbol NoSymbol 
+keycode 47 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch 
 keycode 48 = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
 !!keycode 51 =  not in all keyboards, so forget it
 
