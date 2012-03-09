@@ -713,6 +713,7 @@ keycode  18 = +e               +E               euro         Control_e        Co
 ctrlr keycode 18 = plus
 ctrlr keycode 19 = quotedbl
 ctrlr keycode 20 = apostrophe
+altgr keycode 20 = grave
 ctrlr keycode 21 = equal
 ctrlr keycode 22 = questiondown
 ctrlr keycode 23 = question
