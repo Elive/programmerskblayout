@@ -77,9 +77,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.3312534"
-     inkscape:cx="556.98288"
-     inkscape:cy="566.12468"
+     inkscape:zoom="1.6484451"
+     inkscape:cx="556.68023"
+     inkscape:cy="558.26775"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -131,12 +131,12 @@
     <image
        sodipodi:absref="/mnt/raid-md2/thana/DataExtra/home_linked/Files/designs/teclado/teclado.jpg"
        xlink:href="teclado.jpg"
-       y="234.52025"
-       x="-0.40762091"
-       id="image2444"
-       height="383.73987"
+       sodipodi:insensitive="true"
        width="978.28662"
-       sodipodi:insensitive="true" />
+       height="383.73987"
+       id="image2444"
+       x="-0.40762091"
+       y="234.52025" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -2401,5 +2401,18 @@
          id="tspan2732-7"
          x="379.34625"
          y="505.59592">^</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="637.02863"
+       y="380.19345"
+       id="text2686-6"
+       inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
+       inkscape:export-xdpi="222"
+       inkscape:export-ydpi="222"><tspan
+         sodipodi:role="line"
+         id="tspan2688-3"
+         x="637.02863"
+         y="380.19345">:</tspan></text>
   </g>
 </svg>
