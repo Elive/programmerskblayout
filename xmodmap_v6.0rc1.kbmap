@@ -69,7 +69,7 @@ keycode 61 = minus underscore Next Next NoSymbol NoSymbol
 
 
 ! Compatibility: disable original keys
-keycode 9 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+!keycode 9 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
 keycode 10 = 1 NoSymbol NoSymbol NoSymbol NoSymbol
 keycode 11 = 2 NoSymbol NoSymbol NoSymbol NoSymbol
 keycode 12 = 3 NoSymbol NoSymbol NoSymbol NoSymbol

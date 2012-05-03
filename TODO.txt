@@ -1,0 +1,8 @@
+- use keysym instead of keycode
+
+- chars to reconsider: 
+
+- add tilde char (from ñ)
+
+- la tecla : es muy mal accesible y muy usada en vim, probar de ponerla en algun lado de la mano derecha, por ejemplo mod+o ?
+
