@@ -21,8 +21,8 @@ keycode 35 = Delete Delete Delete Delete Delete Delete
 ! Fila central
 keycode 38 = a A asterisk NoSymbol aacute Aacute
 keycode 39 = s S dollar NoSymbol underscore NoSymbol 
-keycode 40 = d D parenleft NoSymbol braceleft NoSymbol NoSymbol 
-keycode 41 = f F parenright NoSymbol braceright NoSymbol
+keycode 40 = d D parenleft NoSymbol bracketleft NoSymbol
+keycode 41 = f F parenright NoSymbol bracketright NoSymbol
 keycode 42 = g G slash NoSymbol backslash NoSymbol
 keycode 43 = h H Left Left Left Left
 keycode 44 = j J Down Down Down Down
@@ -33,8 +33,8 @@ keycode 48 = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
 !!keycode 51 =  not in all keyboards, so forget it
 
 ! Fila abajo
-keycode 52 = z Z less NoSymbol bracketleft NoSymbol
-keycode 53 = x X greater NoSymbol bracketright NoSymbol 
+keycode 52 = z Z braceleft NoSymbol less NoSymbol
+keycode 53 = x X braceright NoSymbol greater NoSymbol
 keycode 54 = c C numbersign NoSymbol ccedilla Ccedilla
 keycode 55 = v V percent NoSymbol asciicircum NoSymbol
 keycode 56 = b B bar NoSymbol asciitilde NoSymbol 
