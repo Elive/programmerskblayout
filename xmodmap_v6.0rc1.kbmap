@@ -33,8 +33,8 @@ keycode 48 = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
 !!keycode 51 =  not in all keyboards, so forget it
 
 ! Fila abajo
-keycode 52 = z Z braceleft NoSymbol less NoSymbol
-keycode 53 = x X braceright NoSymbol greater NoSymbol
+keycode 52 = z Z less NoSymbol braceleft NoSymbol
+keycode 53 = x X greater NoSymbol braceright NoSymbol
 keycode 54 = c C numbersign NoSymbol ccedilla Ccedilla
 keycode 55 = v V percent NoSymbol asciicircum NoSymbol
 keycode 56 = b B bar NoSymbol asciitilde NoSymbol 

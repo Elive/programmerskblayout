@@ -77,17 +77,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6484451"
-     inkscape:cx="494.98882"
-     inkscape:cy="625.03702"
+     inkscape:zoom="9.3250137"
+     inkscape:cx="233.88247"
+     inkscape:cy="562.51792"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1910"
-     inkscape:window-height="1053"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:object-paths="true"
      inkscape:snap-global="false"
      showguides="true"
@@ -131,12 +131,12 @@
     <image
        sodipodi:absref="/home/thana/Data/sources/gits/github/thanakblayout/teclado.jpg"
        xlink:href="teclado.jpg"
-       sodipodi:insensitive="true"
-       width="978.28662"
-       height="383.73987"
-       id="image2444"
+       y="234.52025"
        x="-0.40762091"
-       y="234.52025" />
+       id="image2444"
+       height="383.73987"
+       width="978.28662"
+       sodipodi:insensitive="true" />
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -1745,29 +1745,29 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="191.78864"
-       y="505.48666"
+       x="178.81279"
+       y="506.02286"
        id="text2774"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2776"
-         x="191.78864"
-         y="505.48666">&lt;</tspan></text>
+         x="178.81279"
+         y="506.02286">&lt;</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="252.92928"
-       y="505.74503"
+       x="241.562"
+       y="505.53055"
        id="text2778"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2780"
-         x="252.92928"
-         y="505.74503">&gt;</tspan></text>
+         x="241.562"
+         y="505.53055">&gt;</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -2032,29 +2032,29 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="180.94031"
-       y="504.99911"
+       x="191.02072"
+       y="505.53531"
        id="text2750"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2752"
-         x="180.94031"
-         y="504.99911">{</tspan></text>
+         x="191.02072"
+         y="505.53531">{</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="243.6698"
-       y="504.79578"
+       x="254.71536"
+       y="504.47406"
        id="text2754"
        inkscape:export-filename="/home/thana/Data/home_linked/Files/designs/teclado/render.png"
        inkscape:export-xdpi="222"
        inkscape:export-ydpi="222"><tspan
          sodipodi:role="line"
          id="tspan2756"
-         x="243.6698"
-         y="504.79578">}</tspan></text>
+         x="254.71536"
+         y="504.47406">}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
