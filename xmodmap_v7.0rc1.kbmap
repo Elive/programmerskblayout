@@ -1,0 +1,86 @@
+! configure modifiers
+clear mod5
+clear mod3
+add mod5 = ISO_Level3_Shift
+add mod3 = Mode_switch
+
+! Upper Row
+keysym q = q Q Escape Escape Escape Escape 
+keysym w = w W ampersand NoSymbol at EuroSign
+keysym e = e E plus NoSymbol eacute Eacute
+keysym r = r R quotedbl NoSymbol NoSymbol NoSymbol 
+keysym t = t T apostrophe NoSymbol grave NoSymbol 
+keysym y = y Y equal NoSymbol NoSymbol NoSymbol 
+keysym u = u U questiondown NoSymbol uacute Uacute
+keysym i = i I question NoSymbol iacute Iacute
+keysym o = o O colon NoSymbol oacute Oacute
+keysym p = p P Home Home thorn NoSymbol
+keysym dead_grave = BackSpace BackSpace Prior Prior NoSymbol NoSymbol
+keysym plus = Delete Delete Delete Delete Delete Delete
+ 
+! Central Row
+keysym a = a A asterisk NoSymbol aacute Aacute
+keysym s = s S dollar NoSymbol underscore NoSymbol 
+keysym d = d D parenleft NoSymbol bracketleft NoSymbol
+keysym f = f F parenright NoSymbol bracketright NoSymbol
+keysym g = g G slash NoSymbol backslash NoSymbol
+keysym h = h H Left Left Left Left
+keysym j = j J Down Down Down Down
+keysym k = k K Up Up Up Up
+keysym l = l L Right Right Right Right
+keysym ntilde = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch 
+keysym dead_acute = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
+!!keysym 51 =  not in all keyboards, so forget it
+
+! Bottom Row
+keysym z = z Z less NoSymbol braceleft NoSymbol
+keysym x = x X greater NoSymbol braceright NoSymbol
+keysym c = c C numbersign NoSymbol ccedilla Ccedilla
+keysym v = v V percent NoSymbol asciicircum NoSymbol
+keysym b = b B bar NoSymbol asciitilde NoSymbol 
+keysym n = n N ntilde Ntilde NoSymbol NoSymbol 
+keysym m = m M exclamdown NoSymbol NoSymbol NoSymbol 
+keysym comma = comma semicolon exclam NoSymbol NoSymbol NoSymbol 
+keysym period = period colon NoSymbol NoSymbol NoSymbol NoSymbol
+keysym minus = minus underscore Next Next NoSymbol NoSymbol 
+
+
+! Switch Caps_lock with the Control_R key
+!remove Lock = Caps_Lock
+!remove Control = Control_R
+!keysym Control_R = Caps_Lock
+!keysym Caps_Lock = Control_R
+!add Lock = Caps_Lock
+!add Control = Control_R
+
+! change spanish < > keys by a simple shift key to avoid typos
+!keycode 94 = Shift_R
+!add Shift = Shift_R
+
+! add cursors in the first field (numbers), it will replace entirely those keys
+!keycode 63 = Left
+!keycode 112  = Down
+!keycode 82  = Down
+!keycode 97 = Up 
+!keycode 99 = Right
+
+! Disable original Backspace to force to use the new method
+!keycode 22 = 
+
+
+! Force use of new keys: disable original keys
+!keycode 9 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 1 = 1 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 2 = 2 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 3 = 3 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 4 = 4 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 5 = 5 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 6 = 6 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 7 = 7 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 8 = 8 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 9 = 9 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 0 = 0 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 20 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 21 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+
+
