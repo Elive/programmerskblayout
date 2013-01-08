@@ -1,5 +1,6 @@
 ! NOTE for NON-SPANISH keyboards: this version actually uses keysym (which is good), where if "keysym q =..." means that the key "q" will be remaped to a q with the extra mapping features, since not all the keyboards has the same order you can easly modify this file at your needs, every line also follows an horizontal order, please use the image as reference
 ! You can use the tool "xev" for know the name of a pressed key
+! example for other languages: if you are in english, you will have an error assigned to the "dead_grave" key, for have it working check in "xev" which key is assigned to this key (you know which one is because they goes in horizontal order, one after other, this one is after P), on this case maybe is "bracketleft", so change that sym of "dead_grave" to "bracketleft" and that's all
 !
 ! configure modifiers
 clear mod5
