@@ -48,14 +48,19 @@ keysym comma = comma semicolon exclam NoSymbol NoSymbol NoSymbol
 keysym period = period colon NoSymbol NoSymbol NoSymbol NoSymbol
 keysym minus = minus underscore Next Next NoSymbol NoSymbol
 
+! Switch Windows key to Mode_switch
+!   useful for left keys as up/down/left/right, and other moving keys
+keysym Super_L = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+! and switch menu to a windows key
+keysym Menu = Super_L Super_L Super_L Super_L Super_L Super_L
 
 ! Switch Caps_lock with the Control_R key
-!remove Lock = Caps_Lock
-!remove Control = Control_R
-!keysym Control_R = Caps_Lock
-!keysym Caps_Lock = Control_R
-!add Lock = Caps_Lock
-!add Control = Control_R
+remove Lock = Caps_Lock
+remove Control = Control_R
+keysym Control_R = Caps_Lock
+keysym Caps_Lock = Control_R
+add Lock = Caps_Lock
+add Control = Control_R
 
 ! change spanish < > keys by a simple shift key to avoid typos
 !keycode 94 = Shift_R
