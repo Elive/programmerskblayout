@@ -55,12 +55,12 @@ keysym Super_L = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mod
 keysym Menu = Super_L Super_L Super_L Super_L Super_L Super_L
 
 ! Switch Caps_lock with the Control_R key
-!remove Lock = Caps_Lock
-!remove Control = Control_R
-!keysym Control_R = Caps_Lock
-!keysym Caps_Lock = Control_R
-!add Lock = Caps_Lock
-!add Control = Control_R
+remove Lock = Caps_Lock
+remove Control = Control_R
+keysym Control_R = Caps_Lock
+keysym Caps_Lock = Control_R
+add Lock = Caps_Lock
+add Control = Control_R
 
 ! change spanish < > keys by a simple shift key to avoid typos
 !keycode 94 = Shift_R
