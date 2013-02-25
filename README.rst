@@ -7,7 +7,7 @@ Thanatermesis keyboard layout
 Introduction
 ==============
 
-This layout is a brainstorm of how typing could be improved specially for programmer users, it features multiple things like less 'wrong keys typed', faster typing of special keys, and a more intuitive layout, it should improve typing a lot for any programmer with a minor impact on the 're-learning process' because its meant to not modify the original layout (whenever is possible), but improve it with more alternative keys
+This layout is a brainstorm and redesign of how typing could be improved specially for programmer users, it features multiple things like less 'wrong keys typed', faster typing of special keys, and a more intuitive layout, it should improve typing a lot for any programmer with a minor impact on the 're-learning curve process' because its meant to not modify the original layout (whenever is possible), but improve it with more alternative keys.
 
 Focus goals:
  * Include a better combination of keys for faster typing with common programming languages
@@ -15,7 +15,7 @@ Focus goals:
  * Uses the default keyboard layout, so you dont't have to learn a new layout (only since version 6)
  * Very easy to remember the location of the new characters
 
-**Update**: Since version 7 it actually supports other layout of keyboard instead of only spanish, but needs to be verified/added in the script
+**Update**: Since version 7 it actually supports other layouts of keyboard instead of only spanish, but maybe you need to add or fix it, pull requests welcome!
 
 How the distribution is made
 ============================
