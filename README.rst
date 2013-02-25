@@ -1,4 +1,4 @@
-Thanatermesis keyboard layout
+Programmers Keyboard Layout
 ----------------------------------
 
 .. contents:: Table of Contents
