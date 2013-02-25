@@ -32,11 +32,12 @@ main(){
    esac
 
    # set our special kb settings
-   xmodmapfile="$( ls -1 /usr/share/programmerskblayout/layouts/xmodmap_* | sort -g | tail -1 )"
+   xmodmapfile="$( ls -1 /usr/share/programmerskblayout/layouts/xmodmap_*__${XKBLAYOUT}.kbmap | sort -g | tail -1 )"
+
    if [[ -e "$xmodmapfile" ]] ; then
        xmodmap "$xmodmapfile"
    else
-       echo -e "E: $xmodmapfile not exist"
+       echo -e "E: $xmodmapfile not exist, maybe we have not a version for your language, you can try with a different language layout (like 'us') or create your one"
    fi
 
    echo -e "\nNote: if you want to always use this layout on your system, copy the file '$xmodmapfile' to '$HOME/.Xmodmap' which you can use for change it to your special needs, it is well documented and should be easy to understand, your window-manager should be able to load it at every login correctly, if you have a problem with the mode3 (altgr), try to add the variant 'altgr-intl' in your xorg or window-manager config, Enlightenment has already all those options available"
