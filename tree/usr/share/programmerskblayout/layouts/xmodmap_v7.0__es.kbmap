@@ -1,4 +1,4 @@
-! NOTE for NON-SPANISH keyboards: this version actually uses keysym (which is good), where if "keysym q =..." means that the key "q" will be remaped to a q with the extra mapping features, since not all the keyboards has the same order you can easly modify this file at your needs, every line also follows an horizontal order, please use the image as reference
+! NOTE: if you want to modify the layout, see that we use keysym (which is good), where if "keysym q = q..." means that the key "q" will be remaped to a q with the extra mapping features, since not all the keyboards has the same order you can easly modify this file at your needs, every line also follows an horizontal order, please use the image as reference
 ! You can use the tool "xev" for know the name of a pressed key
 ! example for other languages: if you are in english, you will have an error assigned to the "dead_grave" key, for have it working check in "xev" which key is assigned to this key (you know which one is because they goes in horizontal order, one after other, this one is after P), on this case maybe is "bracketleft", so change that sym of "dead_grave" to "bracketleft" and that's all
 !
@@ -55,26 +55,19 @@ keysym Super_L = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mod
 keysym Menu = Super_L Super_L Super_L Super_L Super_L Super_L
 
 ! Switch Caps_lock with the Control_R key
-!remove Lock = Caps_Lock
-!remove Control = Control_R
-!keysym Control_R = Caps_Lock
-!keysym Caps_Lock = Control_R
-!add Lock = Caps_Lock
-!add Control = Control_R
+remove Lock = Caps_Lock
+remove Control = Control_R
+keysym Control_R = Caps_Lock
+keysym Caps_Lock = Control_R
+add Lock = Caps_Lock
+add Control = Control_R
 
 ! change spanish < > keys by a simple shift key to avoid typos
-!keycode 94 = Shift_R
-!add Shift = Shift_R
+keycode 94 = Shift_R
+add Shift = Shift_R
 
-! add cursors in the first field (numbers), it will replace entirely those keys
-!keycode 63 = Left
-!keycode 112  = Down
-!keycode 82  = Down
-!keycode 97 = Up 
-!keycode 99 = Right
-
-! Disable original Backspace to force to use the new method
-!keycode 22 = 
+! Disable original Backspace to force us to use the new method
+keycode 22 = 
 
 
 ! Force use of new keys: disable original keys
