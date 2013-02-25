@@ -2,14 +2,26 @@
 
 main(){
    # pre {{{
-   local version
+   local version layout
 
    # }}}
 
 
    echo -e "Please wait..." # by some reason this is slow on e17
    #sleep 1
-   source /etc/default/keyboard
+
+   if [[ -n "$1" ]] ; then
+       XKBLAYOUT="$1"
+   else
+       source /etc/default/keyboard
+   fi
+
+   if [[ -z "$XKBLAYOUT" ]] ; then
+       echo -e "E: include a layout to use as argument, like: $(basename $0) us"
+       exit 1
+   fi
+
+
    case $XKBLAYOUT in
        es)
            setxkbmap "$XKBLAYOUT"
