@@ -32,7 +32,7 @@ main(){
    esac
 
    # set our special kb settings
-   xmodmapfile="$( ls -1 xmodmap_* | sort -g | tail -1 )"
+   xmodmapfile="$( ls -1 /usr/share/programmerskblayout/layouts/xmodmap_* | sort -g | tail -1 )"
    if [[ -e "$xmodmapfile" ]] ; then
        xmodmap "$xmodmapfile"
    else
