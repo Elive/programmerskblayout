@@ -55,26 +55,19 @@ keysym Super_L = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mod
 keysym Menu = Super_L Super_L Super_L Super_L Super_L Super_L
 
 ! Switch Caps_lock with the Control_R key
-!remove Lock = Caps_Lock
-!remove Control = Control_R
-!keysym Control_R = Caps_Lock
-!keysym Caps_Lock = Control_R
-!add Lock = Caps_Lock
-!add Control = Control_R
+remove Lock = Caps_Lock
+remove Control = Control_R
+keysym Control_R = Caps_Lock
+keysym Caps_Lock = Control_R
+add Lock = Caps_Lock
+add Control = Control_R
 
 ! change spanish < > keys by a simple shift key to avoid typos
-!keycode 94 = Shift_R
-!add Shift = Shift_R
+keycode 94 = Shift_R
+add Shift = Shift_R
 
-! add cursors in the first field (numbers), it will replace entirely those keys
-!keycode 63 = Left
-!keycode 112  = Down
-!keycode 82  = Down
-!keycode 97 = Up 
-!keycode 99 = Right
-
-! Disable original Backspace to force to use the new method
-!keycode 22 = 
+! Disable original Backspace to force us to use the new method
+keycode 22 = 
 
 
 ! Force use of new keys: disable original keys
