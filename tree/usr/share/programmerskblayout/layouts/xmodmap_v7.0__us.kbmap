@@ -32,7 +32,7 @@ keysym h = h H Left Left Left Left
 keysym j = j J Down Down Down Down
 keysym k = k K Up Up Up Up
 keysym l = l L Right Right Right Right
-keysym semicolon = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+keysym semicolon = Mode_switch Mode_switch Home Home Mode_switch Mode_switch
 keysym apostrophe = ISO_Level3_Shift ISO_Level3_Shift End End ISO_Level3_Shift ISO_Level3_Shift
 !!keysym 51 =  not in all keyboards, so forget it
 
@@ -46,7 +46,6 @@ keysym n = n N ntilde Ntilde NoSymbol NoSymbol
 keysym m = m M exclamdown NoSymbol NoSymbol NoSymbol
 keysym comma = comma semicolon exclam NoSymbol NoSymbol NoSymbol
 keysym period = period colon NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym minus = minus underscore Next Next NoSymbol NoSymbol
 keysym slash = slash question Next Next NoSymbol NoSymbol
 
 ! Switch Windows key to Mode_switch
@@ -64,23 +63,28 @@ add Lock = Caps_Lock
 add Control = Control_R
 
 
-! Disable original Backspace to force us to use the new method
-keycode 22 = 
+! Disable original keys for force us to use the new method (VERY recommended)
+! they are listed on this order: Backspace, delete, home, end, prior next
+!keycode 22 =
+!keycode 119 =
+!keycode 110 =
+!keycode 115 =
+!keycode 112 =
+!keycode 117 =
 
-
-! Force use of new keys: disable original keys
+! Force use of new keys: disable some programming keys located in numbers
 !keycode 9 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 1 = 1 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 2 = 2 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 3 = 3 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 4 = 4 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 5 = 5 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 6 = 6 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 7 = 7 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 8 = 8 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 9 = 9 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 0 = 0 NoSymbol NoSymbol NoSymbol NoSymbol
-keycode 20 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
-keycode 21 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 1 = 1 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 2 = 2 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 3 = 3 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 4 = 4 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 5 = 5 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 6 = 6 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 7 = 7 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 8 = 8 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 9 = 9 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 0 = 0 NoSymbol NoSymbol NoSymbol NoSymbol
+!keycode 20 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+!keycode 21 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
 
 

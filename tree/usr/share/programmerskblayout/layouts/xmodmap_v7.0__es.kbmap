@@ -66,23 +66,29 @@ add Control = Control_R
 keycode 94 = Shift_R
 add Shift = Shift_R
 
-! Disable original Backspace to force us to use the new method
-keycode 22 = 
+! Disable original keys for force us to use the new method (VERY recommended)
+! they are listed on this order: Backspace, delete, home, end, prior next
+!keycode 22 =
+!keycode 119 =
+!keycode 110 =
+!keycode 115 =
+!keycode 112 =
+!keycode 117 =
 
 
-! Force use of new keys: disable original keys
+! Force use of new keys: disable some programming keys located in numbers
 !keycode 9 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 1 = 1 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 2 = 2 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 3 = 3 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 4 = 4 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 5 = 5 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 6 = 6 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 7 = 7 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 8 = 8 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 9 = 9 NoSymbol NoSymbol NoSymbol NoSymbol
-keysym 0 = 0 NoSymbol NoSymbol NoSymbol NoSymbol
-keycode 20 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
-keycode 21 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 1 = 1 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 2 = 2 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 3 = 3 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 4 = 4 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 5 = 5 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 6 = 6 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 7 = 7 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 8 = 8 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 9 = 9 NoSymbol NoSymbol NoSymbol NoSymbol
+!keysym 0 = 0 NoSymbol NoSymbol NoSymbol NoSymbol
+!keycode 20 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+!keycode 21 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
 
 
