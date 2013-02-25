@@ -7,16 +7,15 @@ Thanatermesis keyboard layout
 Introduction
 ==============
 
-This layout is a brainstorm of how the typing could be improved specially for programmer users, it features multiple things like less 'wrong keys typed', faster typing of special keys, and a more intuitive layout, it should improve a lot the typing of any programmer with a minor impact on the 're-learning process' because its meant to not modify the original layout (whenever is possible), but improve it with more alternative keys
+This layout is a brainstorm of how typing could be improved specially for programmer users, it features multiple things like less 'wrong keys typed', faster typing of special keys, and a more intuitive layout, it should improve typing a lot for any programmer with a minor impact on the 're-learning process' because its meant to not modify the original layout (whenever is possible), but improve it with more alternative keys
 
 Focus goals:
- * include a better combination of keys more fast to type for common programming languages
- * better access to common programming languages instead to fail it and lose time pressing the delete key
- * it doesn't change your default layout, so you don't need to learn a new layout (only since the version 6)
- * very easy to remember the location of the new characters
+ * Include a better combination of keys for faster typing with common programming languages
+ * Better access to common programming keys and less typos
+ * Uses the default keyboard layout, so you dont't have to learn a new layout (only since version 6)
+ * Very easy to remember the location of the new characters
 
-**Update**: Since version 7 it actually supports other distribution of keyboard instead of only spanish, but needs to be verified/added in the script
-
+**Update**: Since version 7 it actually supports other layout of keyboard instead of only spanish, but needs to be verified/added in the script
 
 How the distribution is made
 ============================
