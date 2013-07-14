@@ -19,7 +19,7 @@ keysym u = u U questiondown NoSymbol uacute Uacute
 keysym i = i I question NoSymbol iacute Iacute
 keysym o = o O colon NoSymbol oacute Oacute
 keysym p = p P Home Home thorn NoSymbol
-keysym dead_grave = BackSpace BackSpace Prior Prior NoSymbol NoSymbol
+keysym dead_grave = BackSpace BackSpace Prior Prior Prior Prior
 keysym plus = Delete Delete Delete Delete Delete Delete
 
 ! Central Row
@@ -32,8 +32,9 @@ keysym h = h H Left Left Left Left
 keysym j = j J Down Down Down Down
 keysym k = k K Up Up Up Up
 keysym l = l L Right Right Right Right
-keysym ntilde = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
-keysym dead_acute = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
+keysym ntilde = Mode_switch Mode_switch Mode_switch Mode_switch Home Home
+keysym dead_acute = ISO_Level3_Shift dead_diaeresis End End End End
+!keysym dead_acute = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
 !!keysym 51 =  not in all keyboards, so forget it
 
 ! Bottom Row
@@ -46,7 +47,7 @@ keysym n = n N ntilde Ntilde NoSymbol NoSymbol
 keysym m = m M exclamdown NoSymbol NoSymbol NoSymbol
 keysym comma = comma semicolon exclam NoSymbol NoSymbol NoSymbol
 keysym period = period colon NoSymbol NoSymbol NoSymbol NoSymbol
-keysym minus = minus underscore Next Next NoSymbol NoSymbol
+keysym minus = minus underscore Next Next Next Next
 
 ! Switch Windows key to Mode_switch
 !   useful for left keys as up/down/left/right, and other moving keys
