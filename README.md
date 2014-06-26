@@ -20,7 +20,7 @@ How the distribution is made
 
 This image talks by itself:
 
-![Image of layout](http://github.com/Elive/programmerskblayout/master/render.jpg)
+![Image of layout](http://github.com/Elive/programmerskblayout/raw/master/render.jpg)
 
 - **Mode 3** is equivalent to the **AltGr** key, 
 - **Mode 2** is a modifier key, it is used for replace the useless Ñ key, which can still reachable with the combination a of a Mode2 + N, this is a very handy (near and fast) key that merits a better usage :)
