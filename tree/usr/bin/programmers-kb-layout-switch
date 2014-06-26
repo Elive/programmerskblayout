@@ -8,7 +8,8 @@ main(){
    # }}}
 
 
-   echo -e "Please wait..." # by some reason this is slow on e17
+   echo -e "For more info about how this keymap looks like, see: https://github.com/Elive/programmerskblayout"
+   echo -e "Loading it, Please wait..." # by some reason this is slow on e17
    #sleep 1
 
    if [[ -n "$1" ]] ; then
