@@ -1,7 +1,3 @@
-! NOTE: if you want to modify the layout, see that we use keysym (which is good), where if "keysym q = q..." means that the key "q" will be remaped to a q with the extra mapping features, since not all the keyboards has the same order you can easly modify this file at your needs, every line also follows an horizontal order, please use the image as reference
-! You can use the tool "xev" for know the name of a pressed key
-! example for other languages: if you are in english, you will have an error assigned to the "dead_grave" key, for have it working check in "xev" which key is assigned to this key (you know which one is because they goes in horizontal order, one after other, this one is after P), on this case maybe is "bracketleft", so change that sym of "dead_grave" to "bracketleft" and that's all
-!
 ! configure modifiers
 clear mod5
 clear mod3
@@ -9,22 +5,22 @@ add mod5 = ISO_Level3_Shift
 add mod3 = Mode_switch
 
 ! Upper Row
-keysym q = q Q Escape Escape Escape Escape
+keysym q = q Q Escape Escape Escape Escape 
 keysym w = w W ampersand NoSymbol at EuroSign
 keysym e = e E plus NoSymbol eacute Eacute
-keysym r = r R quotedbl NoSymbol NoSymbol NoSymbol
-keysym t = t T apostrophe NoSymbol grave NoSymbol
-keysym y = y Y equal NoSymbol NoSymbol NoSymbol
+keysym r = r R quotedbl NoSymbol NoSymbol NoSymbol 
+keysym t = t T apostrophe NoSymbol grave NoSymbol 
+keysym y = y Y equal NoSymbol NoSymbol NoSymbol 
 keysym u = u U questiondown NoSymbol uacute Uacute
 keysym i = i I question NoSymbol iacute Iacute
 keysym o = o O colon NoSymbol oacute Oacute
 keysym p = p P Home Home thorn NoSymbol
-keysym dead_grave = BackSpace BackSpace Prior Prior Prior Prior
+keysym dead_grave = BackSpace BackSpace Prior Prior NoSymbol NoSymbol
 keysym plus = Delete Delete Delete Delete Delete Delete
-
+ 
 ! Central Row
 keysym a = a A asterisk NoSymbol aacute Aacute
-keysym s = s S dollar NoSymbol underscore NoSymbol
+keysym s = s S dollar NoSymbol underscore NoSymbol 
 keysym d = d D parenleft NoSymbol bracketleft NoSymbol
 keysym f = f F parenright NoSymbol bracketright NoSymbol
 keysym g = g G slash NoSymbol backslash NoSymbol
@@ -32,9 +28,9 @@ keysym h = h H Left Left Left Left
 keysym j = j J Down Down Down Down
 keysym k = k K Up Up Up Up
 keysym l = l L Right Right Right Right
-keysym ntilde = Mode_switch Mode_switch Mode_switch Mode_switch Home Home
-keysym dead_acute = ISO_Level3_Shift dead_diaeresis End End End End
-!keysym dead_acute = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
+keysym ntilde = Mode_switch Return Mode_switch Mode_switch Mode_switch Mode_switch 
+!keysym ntilde = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+keysym dead_acute = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
 !!keysym 51 =  not in all keyboards, so forget it
 
 ! Bottom Row
@@ -42,54 +38,84 @@ keysym z = z Z less NoSymbol braceleft NoSymbol
 keysym x = x X greater NoSymbol braceright NoSymbol
 keysym c = c C numbersign NoSymbol ccedilla Ccedilla
 keysym v = v V percent NoSymbol asciicircum NoSymbol
-keysym b = b B bar NoSymbol asciitilde NoSymbol
-keysym n = n N ntilde Ntilde NoSymbol NoSymbol
-keysym m = m M exclamdown NoSymbol NoSymbol NoSymbol
-keysym comma = comma semicolon exclam NoSymbol NoSymbol NoSymbol
+keysym b = b B bar NoSymbol asciitilde NoSymbol 
+keysym n = n N ntilde Ntilde NoSymbol NoSymbol 
+keysym m = m M exclamdown NoSymbol NoSymbol NoSymbol 
+keysym comma = comma semicolon exclam NoSymbol NoSymbol NoSymbol 
 keysym period = period colon NoSymbol NoSymbol NoSymbol NoSymbol
-keysym minus = minus underscore Next Next Next Next
+keysym minus = minus underscore Next Next NoSymbol NoSymbol 
 
-! Switch Windows key to Mode_switch
-!   useful for left keys as up/down/left/right, and other moving keys
-keysym Super_L = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
-! and switch menu to a windows key
-keysym Menu = Super_L Super_L Super_L Super_L Super_L Super_L
 
 ! Switch Caps_lock with the Control_R key
+!remove Lock = Caps_Lock
+!remove Control = Control_R
+!keysym Control_R = Caps_Lock
+!keysym Caps_Lock = Control_R
+!add Lock = Caps_Lock
+!add Control = Control_R
+
+! change spanish < > keys by a simple shift key to avoid typos
+!keycode 94 = Shift_R
+!add Shift = Shift_R
+
+! add cursors in the first field (numbers), it will replace entirely those keys
+!keycode 63 = Left
+!keycode 112  = Down
+!keycode 82  = Down
+!keycode 97 = Up 
+!keycode 99 = Right
+
+! Disable original Backspace to force to use the new method
+!keycode 22 = 
+
+
+! Force use of new keys: disable original keys
+!keycode 9 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 1 = 1 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 2 = 2 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 3 = 3 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 4 = 4 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 5 = 5 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 6 = 6 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 7 = 7 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 8 = 8 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 9 = 9 NoSymbol NoSymbol NoSymbol NoSymbol
+keysym 0 = 0 NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 20 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 21 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+
+
+! Note: These modifications are made for my thinkpad (x201s) keyboard that is originally in the US design but using it in a spanish mode, so think about this reconifguration looking at a US thinkpad keyboard in google images :). These reconfigurations are for a lot better working mode, based on my HHKB keyboard with also some personal modifications... good luck understanding it!, see the next comments for every part. Note that it is very hard to type on this way if you are not familiarized, this is because your mind still remember the other keys locations, but if you are motivated to try this method, you will type a lot better
+
+! Swap Caps_Lock and Control_L
+!   The Caps key is a lot less used than the control, this is a common swap
+!   that some linux geeks uses, very handy 
 remove Lock = Caps_Lock
 remove Control = Control_R
-keysym Control_R = Caps_Lock
-keysym Caps_Lock = Control_R
+!keysym Control_R = Caps_Lock
+!keysym Caps_Lock = Control_R
+keycode 66 = Control_R
+keycode 105 = Caps_Lock
 add Lock = Caps_Lock
 add Control = Control_R
 
-! change spanish < > keys by a simple shift key to avoid typos
-keycode 94 = Shift_R
-add Shift = Shift_R
+! 
+! Swap ESC and º/ª
+!   The ESC key is very far, unaccesible, this make a swap with other key
+!   a lot more useless, now it is a lot more accesible
+keycode 49 = Escape backslash backslash backslash backslash
+keycode 9 = masculine ordfeminine grave asciitilde backslash backslash
 
-! Disable original keys for force us to use the new method (VERY recommended)
-! they are listed on this order: Backspace, delete, home, end, prior next
-!keycode 22 =
-!keycode 119 =
-!keycode 110 =
-!keycode 115 =
-!keycode 112 =
-!keycode 117 =
+! 
+! We remove the menu key since is useless and put instead the windows key
+! that is useful for a few things, in the original windows key we put the
+! AltGr modifier since is useful for type things in the other hand side
+!remove mod4 = Super_L Super_R Super_L Hyper_L
+!keycode 135 = Super_L Super_R Super_L Hyper_L
+keycode 133 = Mode_switch
+!keycode 108 = ISO_Level3_Shift
 
-
-! Force use of new keys: disable some programming keys located in numbers
-!keycode 9 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 1 = 1 NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 2 = 2 NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 3 = 3 NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 4 = 4 NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 5 = 5 NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 6 = 6 NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 7 = 7 NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 8 = 8 NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 9 = 9 NoSymbol NoSymbol NoSymbol NoSymbol
-!keysym 0 = 0 NoSymbol NoSymbol NoSymbol NoSymbol
-!keycode 20 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
-!keycode 21 = NoSymbol NoSymbol NoSymbol NoSymbol NoSymbol
+!keycode 51 = Super_L Super_L Super_L Super_L Super_L Super_L
+keysym Menu = Super_L Super_L Super_L Super_L Super_L Super_L
 
 
