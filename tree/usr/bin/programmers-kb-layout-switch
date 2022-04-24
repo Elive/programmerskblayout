@@ -7,8 +7,6 @@ el_make_environment
 #TEXTDOMAIN=""
 #export TEXTDOMAIN
 
-set -e
-
 main(){
    # pre {{{
    local version layout xmodmapfile
