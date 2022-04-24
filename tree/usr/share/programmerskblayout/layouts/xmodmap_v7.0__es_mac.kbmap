@@ -112,7 +112,7 @@ keycode 9 = masculine ordfeminine grave asciitilde backslash backslash
 ! AltGr modifier since is useful for type things in the other hand side
 !remove mod4 = Super_L Super_R Super_L Hyper_L
 !keycode 135 = Super_L Super_R Super_L Hyper_L
-!keycode 133 = Mode_switch
+keycode 133 = Mode_switch
 !keycode 108 = ISO_Level3_Shift
 
 !keycode 51 = Super_L Super_L Super_L Super_L Super_L Super_L
