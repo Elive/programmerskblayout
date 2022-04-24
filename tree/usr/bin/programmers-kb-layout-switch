@@ -23,6 +23,11 @@ main(){
        exit 1
    fi
 
+   # special hardware
+   if grep -qs "Apple Inc." /sys/class/dmi/id/*_vendor 2>/dev/null ; then
+       is_apple=1
+   fi
+
 
    case $XKBLAYOUT in
        es)
@@ -32,6 +37,10 @@ main(){
            # some keyboards like US one needs to enable the "altgr" option specifically
            setxkbmap -variant altgr-intl "$XKBLAYOUT"
    esac
+
+   if ((is_apple)) ; then
+       XKBLAYOUT="${XKBLAYOUT}_mac"
+   fi
 
    # set our special kb settings
    xmodmapfile="$( ls -1 /usr/share/programmerskblayout/layouts/xmodmap_*__${XKBLAYOUT}.kbmap | sort -g | tail -1 )"
