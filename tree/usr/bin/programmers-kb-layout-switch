@@ -68,9 +68,9 @@ main(){
    echo -e "\nNote: if you want to always use this layout on your system, copy the file '$xmodmapfile' to '$HOME/.Xmodmap' which you can use for change it to your special needs, it is well documented and should be easy to understand, your window-manager should be able to load it at every login correctly, if you have a problem with the mode3 (altgr), try to add the variant 'altgr-intl' in your xorg or window-manager config, Enlightenment has already all those options available"
 
    # swap Alt with Opt
-   # if ((is_apple)) ; then
-   #     echo 1 | el_sudo tee /sys/module/hid_apple/parameters/swap_opt_cmd
-   # fi
+   if ((is_apple)) ; then
+       echo 1 | el_sudo tee /sys/module/hid_apple/parameters/swap_opt_cmd
+   fi
 
 
    #sync
