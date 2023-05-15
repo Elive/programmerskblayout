@@ -49,6 +49,7 @@ main(){
    esac
 
    # set the keyboard layout
+   el_info "running: setxkbmap \"$XKBLAYOUT\" -model \"$XKBMODEL\" -variant \"$XKBVARIANT\" -option \"$XKBOPTIONS\""
    setxkbmap "$XKBLAYOUT" -model "$XKBMODEL" -variant "$XKBVARIANT" -option "$XKBOPTIONS"
 
    # if ((is_apple)) ; then
