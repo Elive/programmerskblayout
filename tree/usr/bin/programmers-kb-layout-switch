@@ -18,7 +18,11 @@ main(){
    echo -e "Loading it, Please wait..." # by some reason this is slow on e17
    #sleep 1
 
+   # get values
+   source /etc/default/keyboard
+
    if [[ -n "$1" ]] ; then
+       unset XKBMODEL XKBVARIANT XKBOPTIONS XKBLAYOUT
        XKBLAYOUT="$1"
    else
        source /etc/default/keyboard
@@ -35,18 +39,21 @@ main(){
    fi
 
 
-   case $XKBLAYOUT in
+   case "$XKBLAYOUT" in
        es)
-           setxkbmap "$XKBLAYOUT"
+           true
            ;;
        us|*)
            # some keyboards like US one needs to enable the "altgr" option specifically
-           setxkbmap -variant altgr-intl "$XKBLAYOUT"
+           XKBVARIANT="altgr-intl"
    esac
 
-   if ((is_apple)) ; then
-       XKBLAYOUT="${XKBLAYOUT}_mac"
-   fi
+   # set the keyboard layout
+   setxkbmap "$XKBLAYOUT" -model "$XKBMODEL" -variant "$XKBVARIANT" -option "$XKBOPTIONS"
+
+   # if ((is_apple)) ; then
+   #     XKBLAYOUT="${XKBLAYOUT}_mac"
+   # fi
 
    # set our special kb settings
    xmodmapfile="$( ls -1 /usr/share/programmerskblayout/layouts/xmodmap_*__${XKBLAYOUT}.kbmap | sort -g | tail -1 )"
@@ -60,9 +67,9 @@ main(){
    echo -e "\nNote: if you want to always use this layout on your system, copy the file '$xmodmapfile' to '$HOME/.Xmodmap' which you can use for change it to your special needs, it is well documented and should be easy to understand, your window-manager should be able to load it at every login correctly, if you have a problem with the mode3 (altgr), try to add the variant 'altgr-intl' in your xorg or window-manager config, Enlightenment has already all those options available"
 
    # swap Alt with Opt
-   if ((is_apple)) ; then
-       echo 1 | el_sudo tee /sys/module/hid_apple/parameters/swap_opt_cmd
-   fi
+   # if ((is_apple)) ; then
+   #     echo 1 | el_sudo tee /sys/module/hid_apple/parameters/swap_opt_cmd
+   # fi
 
 
    #sync

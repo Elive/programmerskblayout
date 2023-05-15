@@ -15,7 +15,8 @@ keysym u = u U questiondown NoSymbol uacute Uacute
 keysym i = i I question NoSymbol iacute Iacute
 keysym o = o O colon NoSymbol oacute Oacute
 keysym p = p P Home Home thorn NoSymbol
-keysym dead_grave = BackSpace BackSpace Prior Prior NoSymbol NoSymbol
+! keysym dead_grave = BackSpace BackSpace Prior Prior NoSymbol NoSymbol
+keysym bracketleft = BackSpace BackSpace Prior Prior NoSymbol NoSymbol
 keysym plus = Delete Delete Delete Delete Delete Delete
  
 ! Central Row
@@ -28,9 +29,11 @@ keysym h = h H Left Left Left Left
 keysym j = j J Down Down Down Down
 keysym k = k K Up Up Up Up
 keysym l = l L Right Right Right Right
-keysym ntilde = Mode_switch Return Mode_switch Mode_switch Mode_switch Mode_switch 
 !keysym ntilde = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
-keysym dead_acute = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
+! keysym ntilde = Mode_switch Return Mode_switch Mode_switch Mode_switch Mode_switch 
+keysym semicolon = Mode_switch Return Mode_switch Mode_switch Mode_switch Mode_switch 
+! keysym dead_acute = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
+keysym apostrophe = ISO_Level3_Shift dead_diaeresis End End dead_grave dead_circumflex
 !!keysym 51 =  not in all keyboards, so forget it
 
 ! Bottom Row
