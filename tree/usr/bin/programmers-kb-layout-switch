@@ -69,7 +69,9 @@ main(){
 
    # swap Alt with Opt
    if ((is_apple)) ; then
-       echo 1 | el_sudo tee /sys/module/hid_apple/parameters/swap_opt_cmd
+       if el_check_sudo_automated ; then
+           echo 1 | el_sudo tee /sys/module/hid_apple/parameters/swap_opt_cmd
+       fi
    fi
 
 
