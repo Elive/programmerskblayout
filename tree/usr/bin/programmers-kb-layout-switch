@@ -72,6 +72,14 @@ main(){
    #echo -e "Please drag the first button of the mouse (selecting text) around some seconds until the selection works (keyboard fully loaded correctly)"
    echo -e "\nDone, keyboard layout updated"
 
+   el_info "Suggested fixed configuration for your /etc/default/keyboard file:"
+   echo -e '
+XKBMODEL="pc105"
+XKBLAYOUT="programmers_us"
+XKBVARIANT=""
+'
+
+
 
 }
 
