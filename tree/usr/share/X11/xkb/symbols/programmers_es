@@ -1,0 +1,83 @@
+default alphanumeric_keys partial
+xkb_symbols "basic" {
+
+    // --- ESC & Tilde/Grave Swap (Keycodes 9 & 49) ---
+    key <ESC>  { [ masculine, ordfeminine,    backslash,    backslash ], [    grave, asciitilde ] };
+    key <TLDE> { [    Escape,    backslash ], [    backslash,    backslash ] };
+
+    // --- AE Number Row ---
+    key <AE01> { [ 1, NoSymbol ] };
+    key <AE02> { [ 2, NoSymbol ] };
+    key <AE03> { [ 3, NoSymbol ] };
+    key <AE04> { [ 4, NoSymbol ] };
+    key <AE05> { [ 5, NoSymbol ] };
+    key <AE06> { [ 6, NoSymbol ] };
+    key <AE07> { [ 7, NoSymbol ] };
+    key <AE08> { [ 8, NoSymbol ] };
+    key <AE09> { [ 9, NoSymbol ] };
+    key <AE10> { [ 0, NoSymbol ] };
+    key <AE11> { [ apostrophe,  question ] };
+    key <AE12> { [ exclamdown, questiondown ] };
+
+    // --- AD Row (QWERTY) ---
+    key <AD01> { [         q,          Q,       Escape,       Escape ], [    Escape,       Escape ] };
+    key <AD02> { [         w,          W,           at,     EuroSign ], [ ampersand,     NoSymbol ] };
+    key <AD03> { [         e,          E,       eacute,       Eacute ], [      plus,     NoSymbol ] };
+    key <AD04> { [         r,          R,     NoSymbol,     NoSymbol ], [  quotedbl,     NoSymbol ] };
+    key <AD05> { [         t,          T,        grave,     NoSymbol ], [ apostrophe,     NoSymbol ] };
+    key <AD06> { [         y,          Y,     NoSymbol,     NoSymbol ], [     equal,     NoSymbol ] };
+    key <AD07> { [         u,          U,       uacute,       Uacute ], [ questiondown,  NoSymbol ] };
+    key <AD08> { [         i,          I,       iacute,       Iacute ], [  question,     NoSymbol ] };
+    key <AD09> { [         o,          O,       oacute,       Oacute ], [     colon,     NoSymbol ] };
+    key <AD10> { [         p,          P,        thorn,     NoSymbol ], [      Home,         Home ] };
+    key <AD11> { [ BackSpace,  BackSpace,     NoSymbol,     NoSymbol ], [     Prior,        Prior ] };
+    key <AD12> { [    Delete,     Delete,       Delete,       Delete ], [    Delete,       Delete ] };
+
+    // --- AC Row (ASDF) ---
+    key <AC01> { [         a,          A,       aacute,       Aacute ], [  asterisk,     NoSymbol ] };
+    key <AC02> { [         s,          S,   underscore,     NoSymbol ], [    dollar,     NoSymbol ] };
+    key <AC03> { [         d,          D,  bracketleft,     NoSymbol ], [ parenleft,     NoSymbol ] };
+    key <AC04> { [         f,          F, bracketright,     NoSymbol ], [ parenright,     NoSymbol ] };
+    key <AC05> { [         g,          G,    backslash,     NoSymbol ], [     slash,     NoSymbol ] };
+    key <AC06> { [         h,          H,         Left,         Left ], [      Left,         Left ] };
+    key <AC07> { [         j,          J,         Down,         Down ], [      Down,         Down ] };
+    key <AC08> { [         k,          K,           Up,           Up ], [        Up,           Up ] };
+    key <AC09> { [         l,          L,        Right,        Right ], [     Right,        Right ] };
+    key <AC10> { [ Mode_switch, Mode_switch, Mode_switch, Mode_switch ], [ Mode_switch, Mode_switch ] };
+    key <AC11> { [    Super_L,    Super_L,       Super_L,       Super_L ], [    Super_L,      Super_L ] }; // Physical 'ç' position in ES hardware -> Win Key
+    key <BKSL> { [ ISO_Level3_Shift, dead_diaeresis, dead_grave, dead_circumflex ], [ End,   End ] }; // ISO Key next to Enter acts as AltGr
+
+    // --- AB Row (ZXCV) + Extra ISO Key (<LSGT>) ---
+    key <LSGT> { [  NoSymbol,   NoSymbol ] }; // Physical < > key disabled to prevent typos as per your comments
+    key <AB01> { [         z,          Z,    braceleft,     NoSymbol ], [      less,     NoSymbol ] };
+    key <AB02> { [         x,          X,   braceright,     NoSymbol ], [   greater,     NoSymbol ] };
+    key <AB03> { [         c,          C,     ccedilla,     Ccedilla ], [ numbersign,     NoSymbol ] };
+    key <AB04> { [         v,          V,  asciicircum,     NoSymbol ], [   percent,     NoSymbol ] };
+    key <AB05> { [         b,          B,   asciitilde,     NoSymbol ], [       bar,     NoSymbol ] };
+    key <AB06> { [         n,          N,     NoSymbol,     NoSymbol ], [    ntilde,       Ntilde ] };
+    key <AB07> { [         m,          M,     NoSymbol,     NoSymbol ], [ exclamdown,     NoSymbol ] };
+    key <AB08> { [     comma,  semicolon,     NoSymbol,     NoSymbol ], [    exclam,     NoSymbol ] };
+    key <AB09> { [    period,      colon,     NoSymbol,     NoSymbol ], [  NoSymbol,     NoSymbol ] };
+    key <AB10> { [     minus, underscore,     NoSymbol,     NoSymbol ], [      Next,         Next ] };
+
+    // --- Modifiers & Core Mapping ---
+    key <CAPS> { [  Control_R ] };
+    key <RCTL> { [  Caps_Lock ] };
+    key <LWIN> { [ Mode_switch ] };
+    key <RALT> { [    Super_L,    Super_L,     Super_L,      Super_L ], [   Super_L,      Super_L ] };
+
+    key <TAB>  { [          Tab, ISO_Left_Tab ] };
+    key <RTRN> { [       Return ] };
+    key <LCTL> { [    Control_L ] };
+    key <LFSH> { [      Shift_L ] };
+    key <RFSH> { [      Shift_R ] };
+    key <LALT> { [        Alt_L,       Meta_L ] };
+    key <SPCE> { [        space ] };
+
+    modifier_map Shift   { Shift_L, Shift_R };
+    modifier_map Lock    { Caps_Lock };
+    modifier_map Control { Control_L, Control_R };
+    modifier_map Mod1    { Alt_L, Alt_R };
+    modifier_map Mod3    { Mode_switch };
+    modifier_map Mod4    { Super_L, Super_R };
+};

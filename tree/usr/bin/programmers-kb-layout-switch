@@ -40,32 +40,22 @@ main(){
 
 
    case "$XKBLAYOUT" in
-       es)
-           true
+       es|programmers_es)
+           layout_to_set="programmers_es"
            ;;
-       us|*)
-           # some keyboards like US one needs to enable the "altgr" option specifically
-           XKBVARIANT="altgr-intl"
+       us|programmers_us|*)
+           layout_to_set="programmers_us"
+           ;;
    esac
 
    # set the keyboard layout
-   el_info "running: setxkbmap \"$XKBLAYOUT\" -model \"$XKBMODEL\" -variant \"$XKBVARIANT\" -option \"$XKBOPTIONS\""
-   setxkbmap "$XKBLAYOUT" -model "$XKBMODEL" -variant "$XKBVARIANT" -option "$XKBOPTIONS"
-
-   # if ((is_apple)) ; then
-   #     XKBLAYOUT="${XKBLAYOUT}_mac"
-   # fi
-
-   # set our special kb settings
-   xmodmapfile="$( ls -1 /usr/share/programmerskblayout/layouts/xmodmap_*__${XKBLAYOUT}.kbmap | sort -g | tail -1 )"
-
-   if [[ -e "$xmodmapfile" ]] ; then
-       xmodmap "$xmodmapfile"
-   else
-       echo -e "E: $xmodmapfile not exist, maybe we have not a version for your language, you can try with a different language layout (like 'us') or create your one"
+   el_info "running: setxkbmap \"$layout_to_set\""
+   if ! setxkbmap "$layout_to_set"; then
+       echo -e "E: Failed to set layout '$layout_to_set' using setxkbmap."
+       exit 1
    fi
 
-   echo -e "\nNote: if you want to always use this layout on your system, copy the file '$xmodmapfile' to '$HOME/.Xmodmap' which you can use for change it to your special needs, it is well documented and should be easy to understand, your window-manager should be able to load it at every login correctly, if you have a problem with the mode3 (altgr), try to add the variant 'altgr-intl' in your xorg or window-manager config, Enlightenment has already all those options available"
+   echo -e "\nNote: if you want to always use this layout on your system, you can configure your window manager or desktop environment to load '$layout_to_set' at startup, or set it in /etc/default/keyboard by setting XKBLAYOUT=\"$layout_to_set\"."
 
    # swap Alt with Opt
    if ((is_apple)) ; then
